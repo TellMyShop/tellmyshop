@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help pages
+    url: https://tellmyshop.com/docs?utm_source=github&utm_medium=referral&utm_campaign=linki-zewnetrzne
+    about: Installation, connecting the chat, first steps
+  - name: Licence, invoice or payment
+    url: https://tellmyshop.com/faq?utm_source=github&utm_medium=referral&utm_campaign=linki-zewnetrzne
+    about: Answers about licences and payments; for anything else write to support@tellmyshop.com
