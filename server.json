@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.tellmyshop/tellmyshop",
+  "name": "io.github.TellMyShop/tellmyshop",
   "title": "TellMyShop for PrestaShop and WooCommerce",
   "description": "Run a PrestaShop or WooCommerce store through chat. See every change first and undo any of them.",
   "version": "3.2.0",
