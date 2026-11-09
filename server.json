@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.tellmyshop/tellmyshop",
+  "title": "TellMyShop for PrestaShop and WooCommerce",
+  "description": "Run a PrestaShop or WooCommerce store from the chat. Preview before every save, undo any change.",
+  "version": "3.2.0",
+  "websiteUrl": "https://tellmyshop.com/?utm_source=mcp-registry&utm_medium=referral&utm_campaign=linki-zewnetrzne",
+  "repository": {
+    "url": "https://github.com/tellmyshop/tellmyshop",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://{store_domain}/module/tellmyshop/mcp",
+      "variables": {
+        "store_domain": {
+          "description": "Your PrestaShop store domain with the TellMyShop module installed, e.g. shop.example.com",
+          "isRequired": true
+        }
+      }
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://{site_domain}/wp-json/tellmyshop/v1/mcp",
+      "variables": {
+        "site_domain": {
+          "description": "Your WordPress or WooCommerce site domain with the TellMyShop plugin installed",
+          "isRequired": true
+        }
+      }
+    }
+  ]
+}
